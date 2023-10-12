@@ -1,4 +1,4 @@
-FROM 986794016656.dkr.ecr.eu-west-2.amazonaws.com/baseimage:aws-corretto-17.0.4.9-1_al2_13_09_2022
+FROM 105089500798.dkr.ecr.eu-west-2.amazonaws.com/baseimage:aws-corretto-17.0.4.9-1_deb_13_09_2022
 
 RUN set -eux \
   && yum -y updateinfo security \
